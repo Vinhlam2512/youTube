@@ -1,0 +1,122 @@
+.block {
+  display: block !important;
+}
+
+.show_create {
+  position: absolute;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #fff;
+  top: 44px;
+  width: 190px;
+  border: 0.1px solid #e3e4e4;
+  display: none;
+  right: 180px;
+}
+.show_create--detail {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 14px;
+  color: #030303;
+  padding: 0 20px;
+  margin-right: 0 !important;
+}
+
+.show_menu--detail a:hover,
+.show_create--detail:hover {
+  background-color: rgba(0, 0, 0, 0.15) !important;
+}
+.show_menu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #fff;
+  top: 50px;
+  min-width: 270px;
+  border: 0.1px solid #e3e4e4;
+  right: 140px;
+  display: none;
+}
+.show_menu--detail {
+  width: 100%;
+  border-bottom: 0.1px solid #e3e4e4;
+}
+
+.show_menu--detail a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+  margin: 0 !important;
+  padding: 4px 2px;
+}
+.show_menu--detail a p {
+  font-size: 14px;
+  color: #333333;
+}
+.none-radius {
+  border-radius: 0px !important;
+}
+
+.noti {
+  position: absolute;
+  background: white;
+  width: 480px;
+  height: 570px;
+  top: 46px;
+  right: 95px;
+  border: 0.1px solid #e3e4e4;
+  opacity: 0.97;
+  display: none;
+}
+.noti-header {
+  padding-left: 16px;
+  padding-right: 8px;
+  display: flex;
+  border-bottom: 0.1px solid #e3e4e4;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+.noti-header > h3 {
+  line-height: 49px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.noti-header .btn {
+  opacity: 0.6;
+  cursor: pointer;
+}
+.icon-bell {
+  display: flex;
+  justify-content: center;
+  padding-top: 25%;
+  opacity: 0.6;
+}
+.bell-btn {
+  height: 120px !important;
+}
+.noti-des {
+  opacity: 0.6;
+  min-height: 280px;
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.noti-des_1 h3 {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.noti-des_2 p {
+  font-size: 14px;
+  max-width: 300px;
+  line-height: 1.6;
+  text-align: center;
+}

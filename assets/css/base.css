@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Roboto", Arial, sans-serif;
+}
+.app {
+  min-width: 100px;
+}
+.l-0-2 {
+  width: var(--width-nav);
+}
+.col-no-gutter {
+  padding: 0;
+}
+:root {
+  --height-header: 56px;
+  --width-nav: 72px;
+  --height-offer: 58px;
+}
+svg {
+  fill: #606060;
+}
+.svg-btn {
+  padding: 8px;
+  height: 40px;
+  display: inline-block;
+  align-items: center;
+  border-radius: 50%;
+}
+.svg-text {
+}
+.show-create__des {
+}
